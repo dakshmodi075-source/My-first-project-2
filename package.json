@@ -1,0 +1,17 @@
+{
+  "name": "eye-drops-reminder-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Installable eye-drop reminder PWA with Web Push notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "web-push": "^3.6.7"
+  }
+}
